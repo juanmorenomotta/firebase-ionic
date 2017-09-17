@@ -1,0 +1,27 @@
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title>Alerta</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <button ion-button
+          block
+          color="secundary"
+          [disabled] = ""
+          (click)="notInRisk()">
+    Estoy Bien
+  </button>
+
+  <button ion-button
+          block
+          color="danger"
+          [disabled] = ""
+          (click)="isInRisk()">
+    Ayuda
+  </button>
+
+</ion-content>
